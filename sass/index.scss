@@ -1,0 +1,29 @@
+.main-doc {
+    padding: 0 1.25em 1.25em 2.1875em;
+    overflow-y: scroll;
+}
+.main-section {
+    &__header {
+        font-size: 1.7em;
+        padding-top: 20px;
+    }
+    &__content {
+        margin-left: 0.9375em;
+        color: #4d4e53;
+        letter-spacing: 0.1px;
+        line-height: 1.5;
+        & .content__list {
+            padding-left: 3.125em;
+            & li {
+                margin-bottom: 1.25em;
+            }
+        }
+        & code {
+            display: block;
+            background-color: gainsboro;
+            padding: 0.312em;
+            border-radius: 0.312em;
+            // padding-left: 1.25em;
+        }
+    }
+}
